@@ -1,0 +1,110 @@
+.speedometer-container {
+  background-color: #07080c;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 42px;
+  }
+}
+
+.logo-container {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.speedometer {
+  width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .speedometer {
+    width: 420px;
+  }
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+
+.description {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 100;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 24px;
+  }
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.accelerate-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  border-width: 0px;
+  text-align: center;
+  margin: 16px;
+  height: 38px;
+  padding: 12px;
+  font-size: 14px;
+  font-family: "Roboto";  
+}
+
+@media screen and (min-width: 768px) {
+  .accelerate-button {
+    font-size: 20px;
+    height: 50px;
+  }
+}
+
+.apply-break-button {
+  color: #94a3b8;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  margin: 16px;
+  height: 38px;
+  padding: 12px;
+  font-size: 14px;
+  font-family: "Roboto";
+}
+
+@media screen and (min-width: 768px) {
+  .apply-break-button {
+    font-size: 20px;
+    height: 50px;
+  }
+}
